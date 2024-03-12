@@ -4,7 +4,7 @@ import Home from "./pages/home/Home";
 import List from "./pages/list/List";
 
 const App = () => {
-  return <BrowserRouter>
+  return <BrowserRouter basename="/dashboard">
   <Routes>
 
     <Route path="/">
